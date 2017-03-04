@@ -1,9 +1,52 @@
-#raceway {
-  margin-top: 10px solid black;
-
+#board {
+  margin-top: 25px;
+}
+/*curing the start of the track in rowA*/
+#one {
+  border-radius: 75px 0px 0px 0px;
+  width: 125px;
+  margin: 0px 0px 0px 35px
+}
+/*curving the end of the track in rowA*/
+#twelve {
+  border-radius: 0px 75px 0px 0px;
+  width: 100px;
+}
+/*curing the start of the track in rowB*/
+#thirteen {
+  border-radius: 0px 0px 0px 75px;
+  width: 125px;
+  margin: 0px 0px 35px 35px
+}
+/*curving the end of the track in rowB*/
+#twentyFour{
+  border-radius: 0px 0px 75px 0px;
+  width: 100px;
 }
 
+.container{
+  background-color: rgb(76, 132, 35);
+}
 .box {
-  border: 1px solid black;
-  height: 50px;
+  border: 5px rgba(0, 0, 0, .1);;
+  height: 150px;
+  width: 1505px;
+  background-color: rgb(153, 63, 21);
+}
+/*adding color to the track */
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve {
+  border: 5px solid rgb(249, 249, 249);
+
+}
+/*width - #one and #twelve*/
+#two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven {
+  width: 87px
+}
+/*adding color to the track*/
+#thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #nineteen, #twenty, #twentyOne, #twentyTwo, #twentyThree, #twentyFour {
+  border: 5px solid rgb(249, 249, 249);
+}
+/*width - #thirteen and #twentyFour*/
+#fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #nineteen, #twenty, #twentyOne, #twentyTwo, #twentyThree {
+  width: 87px;
 }
