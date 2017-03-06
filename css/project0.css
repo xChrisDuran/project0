@@ -1,52 +1,74 @@
 #board {
   margin-top: 25px;
 }
-/*curing the start of the track in rowA*/
-#one {
-  border-radius: 75px 0px 0px 0px;
-  width: 125px;
-  margin: 0px 0px 0px 35px
+body {
+  background: url("http://i.imgur.com/8LxdLaT.gif") no-repeat fixed center;
+  background-size: cover;
+  background-position: center;
+  color: solid rgb(0, 0, 0);
+  padding-top: 300px
 }
-/*curving the end of the track in rowA*/
-#twelve {
-  border-radius: 0px 75px 0px 0px;
-  width: 100px;
-}
-/*curing the start of the track in rowB*/
-#thirteen {
-  border-radius: 0px 0px 0px 75px;
-  width: 125px;
-  margin: 0px 0px 35px 35px
-}
-/*curving the end of the track in rowB*/
-#twentyFour{
-  border-radius: 0px 0px 75px 0px;
-  width: 100px;
+
+button {
+  margin-top: 25px;
+  margin-left: 800px;
+  height: 50px;
+  width: 75px;
+  text-align: center;
 }
 
 .container{
-  background-color: rgb(76, 132, 35);
+  background: rgba(76, 132, 35, .8);
+  /*radial-gradient(circle, rgba(0, 0, 0, .1), rgba(76, 132, 35, .8));*/
+  max-width: auto;
 }
-.box {
-  border: 5px rgba(0, 0, 0, .1);;
-  height: 150px;
-  width: 1505px;
+/*curing the start of the track in rowA*/
+#one {
+  border-radius: 25px 0px 0px 0px;
+  width: 125px;
+  margin: 0px 0px 0px 35px;
+  background-color: rgb(131, 142, 122);
+}
+/*curving the end of the track in rowA*/
+#twelve {
+  border-radius: 0px 25px 0px 0px;
+  width: 100px;
   background-color: rgb(153, 63, 21);
 }
-/*adding color to the track */
-#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve {
-  border: 5px solid rgb(249, 249, 249);
+/*curing the start of the track in rowB*/
+#thirteen {
+  border-radius: 0px 0px 0px 25px;
+  width: 125px;
+  margin: 0px 0px 24px 35px;
+  background-color: rgb(131, 142, 122);
+}
+/*curving the end of the track in rowB*/
+#twentyFour{
+  border-radius: 0px 0px 25px 0px;
+  width: 100px;
+  background-color: rgb(153, 63, 21);
+}
 
+.box {
+  border: 5px rgba(0, 0, 0, .1);
+  height: 100px;
+  width: 150px;
 }
-/*width - #one and #twelve*/
+/*all boxes */
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve {
+  border: 3px solid rgb(249, 249, 249);s
+}
+/* - #one and #twelve*/
 #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven {
-  width: 87px
+  width: 87px;
+  background-color: rgb(153, 63, 21);
 }
-/*adding color to the track*/
+/*All boxes*/
 #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #nineteen, #twenty, #twentyOne, #twentyTwo, #twentyThree, #twentyFour {
-  border: 5px solid rgb(249, 249, 249);
+  border: 3px solid rgb(249, 249, 249);
 }
-/*width - #thirteen and #twentyFour*/
+/* - #thirteen and #twentyFour*/
 #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #nineteen, #twenty, #twentyOne, #twentyTwo, #twentyThree {
   width: 87px;
+  background-color: rgb(153, 63, 21);
 }
